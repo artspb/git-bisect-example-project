@@ -5,11 +5,11 @@ public class Main {
     private static final String TEMPLATE = "%s, %s!";
 
     public static void main(String[] args) {
-        sayHello(format())
+        sayHello(format("Hello"))
     }
 
-    private static String format() {
-        return String.format(TEMPLATE, "Hello", "world");
+    private static String format(String greeting) {
+        return String.format(TEMPLATE, greeting, "world");
     }
 
     private static void sayHello(String message) {
