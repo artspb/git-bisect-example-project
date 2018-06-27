@@ -3,10 +3,10 @@ package me.artspb.example.project;
 public class Main {
 
     public static void main(String[] args) {
-        sayHello();
+        sayHello("Hello, world!");
     }
 
-    private static void sayHello() {
-        System.out.println("Hello, world!");
+    private static void sayHello(String message) {
+        System.out.println(message);
     }
 }
